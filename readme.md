@@ -59,9 +59,9 @@ ADVENTURE MODE:
                 In a property named sum, put the value of the variable arraySum
                 In a property named average, put the value of the variable average
 
-    Finally:
+            Finally:
 
-        Revisit your arrays. This time create new variables that represent:
-        sumOfOdd that contains the sum of all the odd numbers
-        and
-        countOfEven that contains the total count of all the even numbers
+                Revisit your arrays. This time create new variables that represent:
+                sumOfOdd that contains the sum of all the odd numbers
+                and
+                countOfEven that contains the total count of all the even numbers
