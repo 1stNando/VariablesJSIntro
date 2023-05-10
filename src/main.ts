@@ -105,3 +105,11 @@ for (var i = 0; i < numbers.length; i++) {
 }
 let average = total / numbers.length
 console.log(`The calculated average of this array is equal to ${average}`)
+
+// Create an object called "stats" that stores the math variables from above.
+const stats = {
+  smallestValue: smallest,
+  largestValue: largest,
+  sum: arraySum,
+  averageArray: average,
+}
