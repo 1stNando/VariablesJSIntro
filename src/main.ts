@@ -29,11 +29,11 @@ const fullName = 'Fernando Aguilar'
 
 console.log(fullName, numberOfCupsOfCoffee)
 
-const aboutMe = {
-  fullName: 'Fernando J.V. Aguilar',
-  luckyNumber: 16,
-  favoriteMovie: 'Avatar, Everything Everywhere All at Once, Nope, RRR',
-}
+// const aboutMe = {
+//   fullName: 'Fernando J.V. Aguilar',
+//   luckyNumber: 16,
+//   favoriteMovie: 'Avatar, Everything Everywhere All at Once, Nope, RRR',
+// }
 
 function greeting() {
   return 'Hello ' + userName + '!'
@@ -64,3 +64,5 @@ console.log(`The quotient of ${numberOne} and ${numberTwo} is ${quotient} `)
 console.log(
   `The remainder when you divide ${numberOne} and ${numberTwo} is ${remainder} `
 )
+
+// Part two of Adventure mode level assignment. USING ARRAYS[].
