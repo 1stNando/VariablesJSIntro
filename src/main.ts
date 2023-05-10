@@ -97,3 +97,11 @@ for (let index = 0; index < numbers.length; index++) {
   arraySum += numbers[index]
 }
 console.log(`The sum of all numbers in the array is ${arraySum}`)
+
+// Find the average of all the numbers in the array and place the answer in a variable named average
+var total = 0
+for (var i = 0; i < numbers.length; i++) {
+  total += numbers[i]
+}
+let average = total / numbers.length
+console.log(`The calculated average of this array is equal to ${average}`)
