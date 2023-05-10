@@ -82,12 +82,14 @@ const numbers: number[] = [
 ]
 
 // Iterations through the array with a  For loop
+let smallest = 0
 for (let index = 0; index < numbers.length; index++) {
-  let smallest = Math.min.apply(Math, numbers)
+  smallest = Math.min.apply(Math, numbers)
   console.log(`Smallest # is ${smallest}`)
 }
+let largest = 0
 for (let index = 0; index < numbers.length; index++) {
-  let largest = Math.max.apply(Math, numbers)
+  largest = Math.max.apply(Math, numbers)
   console.log(`Largest # is ${largest}`)
 }
 
@@ -113,3 +115,4 @@ const stats = {
   sum: arraySum,
   averageArray: average,
 }
+console.log(stats)
