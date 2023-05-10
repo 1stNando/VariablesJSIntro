@@ -66,3 +66,34 @@ console.log(
 )
 
 // Part two of Adventure mode level assignment. USING ARRAYS[].
+
+// Place these numbers into a properly formatted array named numbers
+const numbers: number[] = [
+  11252, 25271, 21007, 49113, 17200, 19838, 44281, 46311, 31744, 25503, 48760,
+  13862, 26198, 19809, 12124, 46484, 12539, 39975, 44560, 32154, 24258, 19183,
+  49208, 41540, 43244, 17424, 49966, 47242, 35065, 12900, 31331, 11709, 16979,
+  28144, 22800, 46516, 16680, 14737, 46163, 34541, 15961, 21350, 44157, 35187,
+  42680, 41930, 11773, 39341, 44559, 30009, 31665, 19187, 34696, 36157, 28121,
+  46747, 30071, 31900, 42122, 38908, 46072, 45519, 29077, 44762, 49562, 13998,
+  27061, 27422, 26086, 35299, 47936, 46805, 13741, 22484, 48992, 38349, 39205,
+  45002, 35619, 29813, 23564, 21927, 40115, 15595, 28468, 43315, 42317, 34206,
+  36386, 32901, 44442, 23292, 35034, 43560, 38008, 26723, 16976, 49696, 47870,
+  14226,
+]
+
+// Iterations through the array with a  For loop
+for (let index = 0; index < numbers.length; index++) {
+  let smallest = Math.min.apply(Math, numbers)
+  console.log(`Smallest # is ${smallest}`)
+}
+for (let index = 0; index < numbers.length; index++) {
+  let largest = Math.max.apply(Math, numbers)
+  console.log(`Largest # is ${largest}`)
+}
+
+// Find the sum of all the numbers in the array and place the answer in a variable named arraySum
+let arraySum = 0
+for (let index = 0; index < numbers.length; index++) {
+  arraySum += numbers[index]
+}
+console.log(`The sum of all numbers in the array is ${arraySum}`)
